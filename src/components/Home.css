@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@800&display=swap');
+
+.home{
+    padding: 10px 20px;
+}
+.sekiller{
+    margin-bottom: 50px;
+}
+.world{
+    right: 0;
+    top: 0;
+    height: 600px;
+}
+.sol{
+    display: flex;
+    position: absolute;
+    top: 30%;
+    left: 45px;
+}
+.p1, .p2, .p3, .p4{
+    font-family: 'Kanit', sans-serif;
+}
+.p1,.p3{
+    font-size: 40px;
+    color: rgb(59, 59, 59);
+}
+.p2,.p4{
+    font-size: 50px;
+}
+.btnhome{
+    background-color: #21215f;
+    color: white;
+    width: 150px;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: larger;
+    margin-top: 20px;
+    border: 2px solid transparent;
+    transition: ease-in-out 0.2s;
+}
+.btnhome:hover{
+    border: 2px solid #21215f;
+    color: #21215f;
+    background-color: white;
+}
+.sec{
+    background-color: #f7f1ba ;
+    color: #c11e43 ;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: flex;
+    margin-bottom: 40px;
+    width: 100%;
+}
+.son{
+    background-color: silver;
+    padding: 10px 20px;
+    margin-bottom: 40px;font-weight: 700;
+    font-size: larger;
+}
+@media screen and (max-width: 600px) {
+    .p1,.p3{
+        font-size: 30px;
+    }
+    .p2,.p4{
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .p1,.p3{
+        font-size: 25px;
+    }
+    .p2,.p4{
+        font-size: 35px;
+    }
+}
+@media screen and (max-width: 310px) {
+    .p1,.p3{
+        font-size: 20px;
+    }
+    .p2,.p4{
+        font-size: 30px;
+    }
+}
+
+  
